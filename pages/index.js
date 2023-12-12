@@ -22,24 +22,17 @@ import { MotionBTTContainer } from "@components/Motion";
 const projectData = [
     {
         id: "1",
-        title: "Avenue Labs",
+        title: "Steve Lutz Dev",
         logo: avenueIcon,
-        link: "https://avenuelabs.co/",
+        link: "https://stevelutz.dev",
         content: "After-hours digital playground."
     },
     {
         id: "2",
-        title: "Pathway",
-        link: "https://pathway.avenuelabs.co/",
+        title: "Rudco Plumbing",
+        link: "https://rudcoplumbing.com",
         logo: pathwayIcon,
-        content: " A NextJS Tailwind CSS SAAS Landing Page."
-    },
-    {
-        id: "3",
-        title: "Articoole",
-        logo: articooleIcon,
-        content: "Making content creation a breeze.",
-        badgeContent: "On Going"
+        content: " Business site."
     }
 ];
 
@@ -47,8 +40,8 @@ export default function Home({ posts }) {
     return (
         <Layout>
             <SEO
-                title="Lane - Avenue Labs"
-                description="Lane - A personal portfolio landing template for developers and designers. Made by Avenue Labs"
+                title="Steve Lutz Dev"
+                description="A personal portfolio landing template for developers and designers."
             />
             <div className="main-wrapper wrap-sm grid gap-16 px-8 md:gap-24 lg:gap-32 mx-auto">
                 {/* Header / Hero */}
@@ -59,19 +52,18 @@ export default function Home({ posts }) {
                             className=" rounded-full bg-neutral-100 object-cover"
                             width={128}
                             height={128}
-                            alt="Lane - Avenue Labs"
+                            alt="Dev"
                         />
                         <div className="content-container">
                             <PageTitle
                                 className="mb-8 lg:mb-4"
                                 headingClassName="mb-0"
                             >
-                                I&apos;m Christian - developer and designer
+                                I&apos;m Steve - shopify developer
                             </PageTitle>
                             <div className="content text-3xl md:text-3xl font-medium leading-8 lg:leading-10 tracking-tight lg:tracking-tighter text-neutral-500 ">
-                                I love building stuff! With a years of
-                                experience, I know my way around creating
-                                awesome websites.
+                                I love building stuff! Crafting unique and
+                                awesome experiences.
                             </div>
                         </div>
                     </SectionContainer>
@@ -80,7 +72,7 @@ export default function Home({ posts }) {
                 <MotionBTTContainer transition={{ delay: 0.4, duration: 0.5 }}>
                     <SectionContainer className="projects--container">
                         <h2 className="font-medium text-h4 text-neutral-500 my-4 leading-8 tracking-tighter">
-                            Products
+                            Projects
                         </h2>
                         <CardGroup className="grid scroll-m-24 gap-5 grid-cols-1 md:grid-cols-2 w-full">
                             {projectData.map((project) => (
