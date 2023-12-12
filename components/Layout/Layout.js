@@ -14,11 +14,10 @@ export const Layout = ({ children, className = "" }) => {
                             transition={{ delay: 0.2, duration: 0.5 }}
                         >
                             <h2 className="font-medium text-4xl md:text-6xl lg:text-7xl leading-10 lg:leading-[70px] tracking-tight lg:tracking-tighter">
-                                Let&apos;s make{" "}
+                                Connect with {" "}
                                 <span className=" text-neutral-400 inline font-bold underline-offset-4 underline">
-                                    great work
-                                </span>{" "}
-                                together.
+                                   me
+                                </span>
                             </h2>
                         </MotionBTTContainer>
                         <MotionBTTContainer
@@ -27,28 +26,28 @@ export const Layout = ({ children, className = "" }) => {
                             <div className="footer-credits">
                                 <Link
                                     className="block text-3xl md:text-5xl lg:text-4xl hover:underline font-medium mb-2 md:mb-8 lg:mb-4 leading-10 tracking-tighter"
-                                    href="mailto:hey@avenuelabs.co"
+                                    href="mailto:steve@coasttocoastweb.com"
                                 >
-                                    hey@avenuelabs.co
+                                    steve@stevelutz.dev
                                 </Link>
                                 <div className="footer-socials font-medium grid gap-6 md:gap-10 grid-cols-3 max-w-md text-xl md:text-3xl lg:text-2xl leading-10 tracking-tighter">
                                     <Link
-                                        href="https://www.linkedin.com/in/christian-luntok/"
+                                        href="https://www.linkedin.com/in/#/"
                                         className="grid-cols-1 hover:underline"
                                     >
                                         Linkedin
                                     </Link>
                                     <Link
-                                        href="https://github.com/christian-luntok"
+                                        href="https://github.com/#"
                                         className="grid-cols-1 hover:underline"
                                     >
                                         GitHub
                                     </Link>
                                     <Link
-                                        href="https://twitter.com/"
+                                        href="https://codepen.com/slstudios"
                                         className="grid-cols-1 hover:underline"
                                     >
-                                        Twitter
+                                        Codepen
                                     </Link>
                                 </div>
                             </div>
@@ -60,7 +59,7 @@ export const Layout = ({ children, className = "" }) => {
                                 className="text-neutral-500 text-lg"
                                 href="https://avenuelabs.co/"
                             >
-                                Made by Avenue Labs - Christian Luntok
+                                2024 stevelutz.dev
                             </Link>
                         </MotionBTTContainer>
                     </div>

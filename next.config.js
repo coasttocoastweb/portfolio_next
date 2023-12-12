@@ -16,14 +16,14 @@ const nextConfig = {
         formats: ["image/avif", "image/webp"]
     },
     env: {
-        siteTitle: "Lane - Avenue Labs",
+        siteTitle: "Steve Lutz Dev",
         siteDescription:
-            "Lane - A personal portfolio landing template for developers and designers. Made by Avenue Labs.",
+            "Steve Lutz Dev Portfolio.",
         siteKeywords:
             "Personal portfolio, landing page, page template, developer portfoliom designer portfolio",
-        siteUrl: "https://lane.avenuelabs.co",
+        siteUrl: "https://stevelutz.dev",
         siteImagePreviewUrl: "images/lane.png",
-        twitterHandle: "@your_handle"
+        twitterHandle: "@coasttocoastdev__"
     },
     headers() {
         return [
