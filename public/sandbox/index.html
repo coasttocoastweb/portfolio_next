@@ -398,7 +398,7 @@
                 return textCoordinates;
             }
 
-            const textCoordinates = createTextGeometry('stevelutz.dev');
+            const textCoordinates = createTextGeometry('stevelutz');
             let currentTextIndex = 0;
 
             function updateParticleTargets() {
@@ -429,12 +429,10 @@
             let isMouseDown = false;
 
             document.addEventListener('mousemove', (event) => {
-                if (isMouseDown) {
                     mouseX = (event.clientX / window.innerWidth) * 2 - 1;
                     mouseY = -(event.clientY / window.innerHeight) * 2 + 1;
                     targetRotationY += (mouseX - targetRotationY) * 0.05;
                     targetRotationX += (mouseY - targetRotationX) * 0.05;
-                }
             });
 
             document.addEventListener('mousedown', (event) => {
