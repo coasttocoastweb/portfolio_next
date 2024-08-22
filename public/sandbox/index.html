@@ -126,7 +126,7 @@
       }
       #zoomControls {
         position: absolute;
-        bottom: 20px;
+        bottom: 220px;
         right: 20px;
         z-index: 100;
         display: flex;
@@ -161,7 +161,7 @@
       }
       #pauseButton {
         position: absolute;
-        bottom: 20px;
+        bottom: 220px;
         left: 20px;
         z-index: 100;
         background-color: rgba(255, 255, 255, 0.7);
@@ -173,7 +173,7 @@
       }
       #scrollIndicator {
         position: absolute;
-        bottom: 50px;
+        bottom: 250px;
         left: 50%;
         transform: translateX(-50%);
         z-index: 100;
@@ -238,105 +238,11 @@
       <div id="scrollIndicator">&#9660;</div>
     </section>
 
-    <section id="timeline">
-      <h2>Experience & Work</h2>
-      <div class="timeline-item">
-        <div class="timeline-year">2022</div>
-        <div class="timeline-content">
-          <h3>Senior Front-End Developer</h3>
-          <p>
-            Led a team in developing cutting-edge web applications using React
-            and Node.js.
-          </p>
-        </div>
-      </div>
-      <div class="timeline-item">
-        <div class="timeline-year">2020</div>
-        <div class="timeline-content">
-          <h3>UI/UX Designer</h3>
-          <p>
-            Designed intuitive user interfaces for mobile applications,
-            increasing user engagement by 40%.
-          </p>
-        </div>
-      </div>
-      <div class="timeline-item">
-        <div class="timeline-year">2018</div>
-        <div class="timeline-content">
-          <h3>Junior Web Developer</h3>
-          <p>
-            Started career building responsive websites using HTML, CSS, and
-            JavaScript.
-          </p>
-        </div>
-      </div>
-    </section>
 
-    <section id="skills">
-      <h2>Skills</h2>
-      <div class="skills-grid">
-        <div class="skill-item">
-          <span class="skill-name">JavaScript</span>
-          <div class="skill-bar">
-            <div class="skill-level" style="width: 90%"></div>
-          </div>
-        </div>
-        <div class="skill-item">
-          <span class="skill-name">React</span>
-          <div class="skill-bar">
-            <div class="skill-level" style="width: 85%"></div>
-          </div>
-        </div>
-        <div class="skill-item">
-          <span class="skill-name">Node.js</span>
-          <div class="skill-bar">
-            <div class="skill-level" style="width: 80%"></div>
-          </div>
-        </div>
-        <div class="skill-item">
-          <span class="skill-name">UI/UX Design</span>
-          <div class="skill-bar">
-            <div class="skill-level" style="width: 75%"></div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section id="portfolio">
-      <h2>Portfolio</h2>
-      <div class="portfolio-grid">
-        <div class="portfolio-item">
-          <img
-            src="https://via.placeholder.com/300x200.png?text=Project+1"
-            alt="Project 1"
-          />
-          <h3>E-commerce Platform</h3>
-          <p>A full-stack e-commerce solution with React and Node.js.</p>
-          <a href="#" target="_blank" rel="noopener noreferrer">View Project</a>
-        </div>
-        <div class="portfolio-item">
-          <img
-            src="https://via.placeholder.com/300x200.png?text=Project+2"
-            alt="Project 2"
-          />
-          <h3>Weather App</h3>
-          <p>Real-time weather forecasting using OpenWeatherMap API.</p>
-          <a href="#" target="_blank" rel="noopener noreferrer">View Project</a>
-        </div>
-        <div class="portfolio-item">
-          <img
-            src="https://via.placeholder.com/300x200.png?text=Project+3"
-            alt="Project 3"
-          />
-          <h3>Task Management Tool</h3>
-          <p>Collaborative task manager with real-time updates.</p>
-          <a href="#" target="_blank" rel="noopener noreferrer">View Project</a>
-        </div>
-      </div>
 <!-- Modal HTML -->
 <div id="modal" style="display: none; position: fixed; top: 50%; left: 50%; transform: translate(-50%, -50%); background: white; padding: 20px; border: 1px solid #ccc; z-index: 1000;">
-    <h2>Modal Title</h2>
-    <p>Modal content goes here.</p>
+    <h2>More Content</h2>
+    <p>Goes in here.</p>
     <button id="closeModal">Close</button>
 </div>
 
@@ -492,7 +398,7 @@
                 return textCoordinates;
             }
 
-            const textCoordinates = createTextGeometry('teezy');
+            const textCoordinates = createTextGeometry('stevelutz.dev');
             let currentTextIndex = 0;
 
             function updateParticleTargets() {
