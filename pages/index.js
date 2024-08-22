@@ -7,6 +7,8 @@ import avenueIcon from "../public/icons/avenue-icon.svg";
 import articooleIcon from "../public/icons/articoole-icon.svg";
 import pathwayIcon from "../public/icons/pathway-icon.png";
 import profilePicture from "../public/images/picture.png";
+import wordpressIcon from "../public/images/wordpress.png";
+import shopifyIcon from "../public/images/shopify.svg";
 import { PageTitle } from "@components/Title";
 import {
     Card,
@@ -24,42 +26,42 @@ const projectData = [
         id: "1",
         title: "Steve Lutz Dev Sandbox",
         link: "https://stevelutz.dev/sandbox",
-        logo: "articooleIcon",
+        logo: shopifyIcon,
         content: "After-hours digital playground."
     },
     {
         id: "2",
         title: "Vuori Clothing",
         link: "https://vuoriclothing.com",
-        logo: "articooleIcon",
+        logo: shopifyIcon,
         content: "Shopify Plus"
     },
     {
         id: "3",
         title: "Blenders Eyewear",
         link: "https://blenderseyewear.com",
-        logo: "articooleIcon",
+        logo: shopifyIcon,
         content: "Shopify Plus"
     },
     {
         id: "4",
         title: "Lofty Coffee",
         link: "https://loftycoffee.com",
-        logo: "articooleIcon",
+        logo: shopifyIcon,
         content: "Shopify - Site Launching Soon"
     },
     {
         id: "5",
         title: "Rudco Plumbing",
         link: "https://rudcoplumbing.com",
-        logo: "articooleIcon",
+        logo: wordpressIcon,
         content: "WordPress"
     },
     {
         id: "5",
         title: "Montano Wines",
         link: "https://montanowines.com",
-        logo: "articooleIcon",
+        logo: wordpressIcon,
         content: "WordPress - Woocommerce"
     }
 ];
