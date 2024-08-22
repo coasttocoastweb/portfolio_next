@@ -9,6 +9,7 @@ import pathwayIcon from "../public/icons/pathway-icon.png";
 import profilePicture from "../public/images/picture.png";
 import wordpressIcon from "../public/images/wordpress.png";
 import shopifyIcon from "../public/images/shopify.svg";
+import nextjsIcon from "../public/images/nextjs.png";
 import { PageTitle } from "@components/Title";
 import {
     Card,
@@ -26,7 +27,7 @@ const projectData = [
         id: "1",
         title: "Steve Lutz Dev Sandbox",
         link: "https://stevelutz.dev/sandbox",
-        logo: shopifyIcon,
+        logo: nextjsIcon,
         content: "After-hours digital playground."
     },
     {
