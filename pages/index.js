@@ -22,17 +22,38 @@ import { MotionBTTContainer } from "@components/Motion";
 const projectData = [
     {
         id: "1",
-        title: "Steve Lutz Dev",
+        title: "Steve Lutz Dev Sandbox",
         logo: avenueIcon,
-        link: "https://stevelutz.dev",
+        link: "https://stevelutz.dev/sandbox",
         content: "After-hours digital playground."
     },
     {
         id: "2",
+        title: "Vuori Clothing",
+        link: "https://vuoriclothing.com",
+        logo: pathwayIcon,
+        content: "Shopify Plus"
+    },
+    {
+        id: "3",
+        title: "Blenders Eyewear",
+        link: "https://blenderseyewear.com",
+        logo: pathwayIcon,
+        content: "Shopify Plus"
+    },
+    {
+        id: "4",
+        title: "Lofty Coffee",
+        link: "https://loftycoffee.com",
+        logo: pathwayIcon,
+        content: "Shopify - Site Launching Soon"
+    },
+    {
+        id: "5",
         title: "Rudco Plumbing",
         link: "https://rudcoplumbing.com",
         logo: pathwayIcon,
-        content: " Business site."
+        content: "WordPress"
     }
 ];
 
@@ -41,7 +62,7 @@ export default function Home({ posts }) {
         <Layout>
             <SEO
                 title="Steve Lutz Dev"
-                description="A personal portfolio landing template for developers and designers."
+                description="Portfolio"
             />
             <div className="main-wrapper wrap-sm grid gap-16 px-8 md:gap-24 lg:gap-32 mx-auto">
                 {/* Header / Hero */}
@@ -59,11 +80,10 @@ export default function Home({ posts }) {
                                 className="mb-8 lg:mb-4"
                                 headingClassName="mb-0"
                             >
-                                I&apos;m Steve - shopify developer
+                                I&apos;m Steve - Front-End Engineer
                             </PageTitle>
                             <div className="content text-3xl md:text-3xl font-medium leading-8 lg:leading-10 tracking-tight lg:tracking-tighter text-neutral-500 ">
-                                I love building stuff! Crafting unique and
-                                awesome experiences.
+                                I love building stuff! Creating original and dynamic experiences.
                             </div>
                         </div>
                     </SectionContainer>
