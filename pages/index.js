@@ -24,36 +24,42 @@ const projectData = [
         id: "1",
         title: "Steve Lutz Dev Sandbox",
         link: "https://stevelutz.dev/sandbox",
+        logo: "articooleIcon",
         content: "After-hours digital playground."
     },
     {
         id: "2",
         title: "Vuori Clothing",
         link: "https://vuoriclothing.com",
+        logo: "articooleIcon",
         content: "Shopify Plus"
     },
     {
         id: "3",
         title: "Blenders Eyewear",
         link: "https://blenderseyewear.com",
+        logo: "articooleIcon",
         content: "Shopify Plus"
     },
     {
         id: "4",
         title: "Lofty Coffee",
         link: "https://loftycoffee.com",
+        logo: "articooleIcon",
         content: "Shopify - Site Launching Soon"
     },
     {
         id: "5",
         title: "Rudco Plumbing",
         link: "https://rudcoplumbing.com",
+        logo: "articooleIcon",
         content: "WordPress"
     },
     {
         id: "5",
         title: "Montano Wines",
         link: "https://montanowines.com",
+        logo: "articooleIcon",
         content: "WordPress - Woocommerce"
     }
 ];
