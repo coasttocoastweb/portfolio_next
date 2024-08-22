@@ -114,44 +114,7 @@ export default function Home({ posts }) {
                         </CardGroup>
                     </SectionContainer>
                 </MotionBTTContainer>
-                {/* Blog Container */}
-
-                <MotionBTTContainer transition={{ delay: 0.2, duration: 0.5 }}>
-                    <SectionContainer className="blogs--container">
-                        <h2 className="font-medium text-h4 text-neutral-500 my-4 leading-8 tracking-tighter">
-                            Blogs
-                        </h2>
-                        <ul className="list-none space-y-5">
-                            {posts.map((post) => (
-                                <li
-                                    key={post.title}
-                                    className="flex flex-col gap-1"
-                                >
-                                    <Link
-                                        href={`/blog/${post.slug}`}
-                                        className="block w-full card-clip p-8 no-underline sm:flex-row sm:gap-8 bg-neutral-100 rounded-[40px] transition-all duration-300"
-                                    >
-                                        <span className="grid flex-1 gap-1">
-                                            <span className="text-neutral-900 line-clamp-1 md:inline-flex items-center">
-                                                <span className="inline-block font-medium">
-                                                    {post.title}
-                                                </span>
-                                                <span className="md:mb-0 my-2 md:my-0 md:ml-2 text-sm w-max md:w-auto items-center rounded-full border border-neutral-300 bg-white px-1 py-[2px] font-medium text-primary-500 block md:inline-flex">
-                                                    <span className="px-2">
-                                                        {post.date}
-                                                    </span>
-                                                </span>
-                                            </span>
-                                            <span className="text-neutral-500 line-clamp-2 ">
-                                                {post.excerpt}
-                                            </span>
-                                        </span>
-                                    </Link>
-                                </li>
-                            ))}
-                        </ul>
-                    </SectionContainer>
-                </MotionBTTContainer>
+               
             </div>
         </Layout>
     );
