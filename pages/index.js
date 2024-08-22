@@ -70,10 +70,7 @@ const projectData = [
 export default function Home({ posts }) {
     return (
         <Layout>
-            <SEO
-                title="Steve Lutz Dev"
-                description="Portfolio"
-            />
+            <SEO title="Steve Lutz Dev" description="Portfolio" />
             <div className="main-wrapper wrap-sm grid gap-16 px-8 md:gap-24 lg:gap-32 mx-auto">
                 {/* Header / Hero */}
                 <MotionBTTContainer transition={{ delay: 0.2, duration: 0.5 }}>
@@ -90,10 +87,12 @@ export default function Home({ posts }) {
                                 className="mb-8 lg:mb-4"
                                 headingClassName="mb-0"
                             >
-                                I&apos;m Steve - Front-End Engineer
+                                I&apos;m Steve - Front-End Engineer & UI/UX
+                                Enthusiast
                             </PageTitle>
                             <div className="content text-3xl md:text-3xl font-medium leading-8 lg:leading-10 tracking-tight lg:tracking-tighter text-neutral-500 ">
-                                I love building stuff! Creating original and dynamic experiences.
+                                I love building stuff! Creating original and
+                                dynamic experiences.
                             </div>
                         </div>
                     </SectionContainer>
@@ -144,7 +143,6 @@ export default function Home({ posts }) {
                         </CardGroup>
                     </SectionContainer>
                 </MotionBTTContainer>
-               
             </div>
         </Layout>
     );
