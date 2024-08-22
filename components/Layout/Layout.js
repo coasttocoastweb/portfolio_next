@@ -26,19 +26,19 @@ export const Layout = ({ children, className = "" }) => {
                             <div className="footer-credits">
                                 <Link
                                     className="block text-3xl md:text-5xl lg:text-4xl hover:underline font-medium mb-2 md:mb-8 lg:mb-4 leading-10 tracking-tighter"
-                                    href="mailto:steve@coasttocoastweb.com"
+                                    href="mailto:stevenlutz27@gmail.com"
                                 >
-                                    steve@stevelutz.dev
+                                   stevenlutz27@gmail.com
                                 </Link>
                                 <div className="footer-socials font-medium grid gap-6 md:gap-10 grid-cols-3 max-w-md text-xl md:text-3xl lg:text-2xl leading-10 tracking-tighter">
                                     <Link
-                                        href="https://www.linkedin.com/in/#/"
+                                        href="https://www.linkedin.com/in/steven-lutz-5795a123/"
                                         className="grid-cols-1 hover:underline"
                                     >
                                         Linkedin
                                     </Link>
                                     <Link
-                                        href="https://github.com/#"
+                                        href="https://github.com/slstudiosinc"
                                         className="grid-cols-1 hover:underline"
                                     >
                                         GitHub
