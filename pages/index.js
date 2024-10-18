@@ -145,40 +145,6 @@ export default function Home({ posts }) {
                 </MotionBTTContainer>
             </div>
 
-                                               <h2>Contact Us</h2>
-                {!submitted ? (
-                    <form
-                        name="contact"
-                        method="POST"
-                        data-netlify="true"
-                        onSubmit={handleSubmit}
-                            netlify
-                    >
-                        <input type="hidden" name="form-name" value="contact" />
-                        <div>
-                            <label>
-                                Your Name:
-                                <input type="text" name="name" required />
-                            </label>
-                        </div>
-                        <div>
-                            <label>
-                                Your Email:
-                                <input type="email" name="email" required />
-                            </label>
-                        </div>
-                        <div>
-                            <label>
-                                Message:
-                                <textarea name="message" required></textarea>
-                            </label>
-                        </div>
-                        <button type="submit">Send</button>
-                    </form>
-                ) : (
-                    <p>Thank you for your message! We will be in touch soon.</p>
-                )}
-
         </Layout>
     );
 }
