@@ -152,6 +152,7 @@ export default function Home({ posts }) {
                         method="POST"
                         data-netlify="true"
                         onSubmit={handleSubmit}
+                            netlify
                     >
                         <input type="hidden" name="form-name" value="contact" />
                         <div>
