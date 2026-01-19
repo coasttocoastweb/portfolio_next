@@ -26,9 +26,9 @@ export const Layout = ({ children, className = "" }) => {
                             <div className="footer-credits">
                                 <Link
                                     className="block text-3xl md:text-5xl lg:text-4xl hover:underline font-medium mb-2 md:mb-8 lg:mb-4 leading-10 tracking-tighter"
-                                    href="mailto:stevenlutz27@gmail.com"
+                                    href="mailto:stevelutz.shopify@gmail.com"
                                 >
-                                   stevenlutz27@gmail.com
+                                   stevelutz.shopify@gmail.com
                                 </Link>
                                 <div className="footer-socials font-medium grid gap-6 md:gap-10 grid-cols-3 max-w-md text-xl md:text-3xl lg:text-2xl leading-10 tracking-tighter">
                                     <Link
