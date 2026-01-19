@@ -59,7 +59,7 @@ export const Layout = ({ children, className = "" }) => {
                                 className="text-neutral-500 text-lg"
                                 href="https://avenuelabs.co/"
                             >
-                                2024 stevelutz.dev
+                                2026 stevelutz.dev
                             </Link>
                         </MotionBTTContainer>
                     </div>
